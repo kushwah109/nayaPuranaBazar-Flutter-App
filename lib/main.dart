@@ -1,8 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:naya_purana_bazar/Screens/chat_Screen.dart';
-import 'package:naya_purana_bazar/Screens/home.dart';
+
 import 'package:naya_purana_bazar/splash.dart';
 
 

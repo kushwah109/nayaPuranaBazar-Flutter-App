@@ -4,6 +4,8 @@ import 'icons _class.dart';
 import 'widget class.dart';
 
 class ShoppingCardIconContainer extends StatelessWidget {
+  const ShoppingCardIconContainer({super.key});
+
 
   @override
   Widget build(BuildContext context) {

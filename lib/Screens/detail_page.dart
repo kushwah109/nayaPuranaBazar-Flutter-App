@@ -22,9 +22,9 @@ class _DetailPageState extends State<DetailPage> {
     final h = MediaQuery.of(context).size.height;
     final w= MediaQuery.of(context).size.width;
 
-
-    int crossAxisCount =w>600?3:2;
-    double childAspectRatio = w>1000 ? 0.7:w>800?0.65: w>600?0.7:w>400?0.6:w>300?0.65:0.6;
+    //
+    // int crossAxisCount =w>600?3:2;
+    // double childAspectRatio = w>1000 ? 0.7:w>800?0.65: w>600?0.7:w>400?0.6:w>300?0.65:0.6;
 
     return Scaffold(
       backgroundColor: Colors.white,

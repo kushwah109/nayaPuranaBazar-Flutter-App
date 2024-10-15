@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:naya_purana_bazar/Screens/detail_page.dart';
-import 'package:naya_purana_bazar/Screens/home.dart';
 import 'package:naya_purana_bazar/constant/icons%20_class.dart';
 import 'package:naya_purana_bazar/constant/widget%20class.dart';
 

@@ -10,6 +10,9 @@ import '../Screens/order_screen.dart';
 import 'widget class.dart';
 
 class HomeBottomNavigation extends StatefulWidget {
+  const HomeBottomNavigation({super.key});
+
+
   @override
   State<HomeBottomNavigation> createState() => _HomeBottomNavigationState();
 }
@@ -21,7 +24,7 @@ class _HomeBottomNavigationState extends State<HomeBottomNavigation> {
     HomeScreen(),
     CategoriesScreen(),
     LikesScreen(),
-    ChatScreen(),
+    ChatPage(),
     OrderScreen(),
   ];
 

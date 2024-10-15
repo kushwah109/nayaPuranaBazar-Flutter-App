@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:naya_purana_bazar/Screens/puranagrid.dart';
-import '../Screens/nayabazargrid.dart';
-import '../api/cateogries.dart';
 import '../api/oldproduct_categories.dart';
 import 'icons _class.dart';
 import 'widget class.dart';
@@ -15,7 +13,6 @@ class PuranaBazar extends StatefulWidget {
 }
 
 class _PuranaBazarState extends State<PuranaBazar> {
-  ProductCateogries _category =ProductCateogries();
   final List<Item> item = [Item(name: 'Summer',rating:'4.5' ,price:'\$56.55',imageUrl: 'assets/tempimg/mens_wear.jpg', itemName: 'All'),
     Item(name: 'Bag',rating:'4.5' ,price:'\$2.55',imageUrl: 'assets/tempimg/beg.jpg', itemName: 'Jacket'),
     Item(name: 'Dress',rating:'4.0' ,price:'\$84.55',imageUrl: 'assets/tempimg/short_dress.jpg', itemName: 'Dresses'),
@@ -37,7 +34,6 @@ class _PuranaBazarState extends State<PuranaBazar> {
   //   'assets/tempimg/shoes.jpg',
   //   'assets/tempimg/sneakers.jpg',
   // ];
-  bool _click = true;
 
   @override
   Widget build(BuildContext context) {
