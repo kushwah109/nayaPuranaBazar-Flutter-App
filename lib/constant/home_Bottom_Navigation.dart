@@ -30,6 +30,7 @@ class _HomeBottomNavigationState extends State<HomeBottomNavigation> {
 
   BottomBarController indexController = Get.put(BottomBarController());
 
+  @override
   Widget build(BuildContext context) {
     final h = MediaQuery.of(context).size.height;
 

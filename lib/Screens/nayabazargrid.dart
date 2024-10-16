@@ -53,7 +53,7 @@ class _NayabazargridState extends State<Nayabazargrid> {
         actions: [
           Row(
             children: [
-              IconButton(onPressed: (){}, icon: search_Icon,color: colorOrange,),
+              IconButton(onPressed: (){}, icon: searchIcon1,color: colorOrange,),
               IconButton(onPressed: (){}, icon: favoriteIcon,color: colorOrange,),
               IconButton(onPressed: (){}, icon: shopingIcon,color: colorOrange,)
             ],

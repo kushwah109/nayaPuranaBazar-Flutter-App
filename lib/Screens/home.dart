@@ -22,7 +22,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 CatelogList catelogList = CatelogList();
-  bool _LatestTrends = true;
+  bool _latestTrends = true;
   // int selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
@@ -31,8 +31,8 @@ CatelogList catelogList = CatelogList();
     return Scaffold(
       key: scaffoldKey,
       backgroundColor: Colors.white,
-      bottomNavigationBar:HomeBottomNavigation(),
-      drawer: UserprofileDrawer(),
+      bottomNavigationBar:const HomeBottomNavigation(),
+      drawer: const UserprofileDrawer(),
       body:Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -133,12 +133,12 @@ CatelogList catelogList = CatelogList();
                     children: [
                       HomeButton(onpress: (){
                         setState(() {
-                          _LatestTrends = true;
+                          _latestTrends = true;
                         });
                       }, text: "Naya Bazar "),
                       HomeButton(onpress: (){
                         setState(() {
-                          _LatestTrends = false;
+                          _latestTrends = false;
                         });
                       }, text: " Purana Bazar"),
                     ],
@@ -188,7 +188,7 @@ CatelogList catelogList = CatelogList();
                   // SizedBox(
                   //   height: h/30,
                   // ),
-                  _LatestTrends?NayaBazar():PuranaBazar(),
+                  _latestTrends?NayaBazar():PuranaBazar(),
               
                 ],
               ),

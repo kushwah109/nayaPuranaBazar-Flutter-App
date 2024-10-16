@@ -63,7 +63,7 @@ class CatelogList {
   Future<List<dynamic>> fetchcatelog()async{
     // print('fist');
     try{
-      var par = await Uri.parse(basecat);
+      var par = Uri.parse(basecat);
 http.Response response = await http.get(par);
 
 if(response.statusCode == 200){

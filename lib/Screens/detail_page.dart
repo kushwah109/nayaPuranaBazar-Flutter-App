@@ -51,8 +51,8 @@ class _DetailPageState extends State<DetailPage> {
                     Container(
                         height: h/3,
                         width: double.infinity,
-                        padding: EdgeInsets.all(10),
-                        margin: EdgeInsets.all(15),
+                        padding: const EdgeInsets.all(10),
+                        margin: const EdgeInsets.all(15),
                         decoration: BoxDecoration(
                             color: Colors.white,
                             borderRadius: BorderRadius.circular(10),
@@ -69,8 +69,8 @@ class _DetailPageState extends State<DetailPage> {
                       ),
                     ),
                     Container(
-                      margin: EdgeInsets.all(20),
-                      padding: EdgeInsets.all(10),
+                      margin: const EdgeInsets.all(20),
+                      padding: const EdgeInsets.all(10),
                       decoration: BoxDecoration(
                           color: colorOrange,
                           borderRadius: BorderRadius.circular(15)
@@ -109,7 +109,7 @@ class _DetailPageState extends State<DetailPage> {
                           'Product Details',
                           style:descriptionTextStyle
                       ),
-                      SizedBox(height: 10,),
+                      const SizedBox(height: 10,),
                       Text(
                         widget.description,
                         style: TextStyle(fontSize: h/50,color: Colors.black54),
@@ -132,7 +132,7 @@ class _DetailPageState extends State<DetailPage> {
                           ]
                       ),)),
                 SizedBox(height: h/40,),
-                Divider(),
+                const Divider(),
                 // Text('People also viewed',style: accountText.copyWith(fontSize: h/40),),
                 // GridView.builder(
                 //     padding:EdgeInsets.all(10),
